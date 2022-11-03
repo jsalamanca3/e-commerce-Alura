@@ -1,0 +1,29 @@
+.container__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    width: 100%;
+    height: 192px;
+    padding: 0% 3% 4% 3%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),url(../img/mario.jpg) center center/cover no-repeat;
+}
+.h__promocional {
+    color: var(--section-add-product);
+    font-size: var(--letter-big);
+    font-weight: 700;
+}
+.p__descuento {
+    color: var(--section-add-product);
+    font-size: var(--letter-small);
+    font-weight: 600;
+}
+.btn__main_consolas {
+    width: 118px;
+    height: 40px;
+    color: var(--color-letter-input);
+    background: var(--color-input);
+    font-size: var(--font-small);
+    font-weight: 600;
+    border: none;
+}

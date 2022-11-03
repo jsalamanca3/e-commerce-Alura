@@ -1,0 +1,119 @@
+.nav__alurageek  {
+    width: 58%;
+    height: 114px;
+    padding: 0;
+}
+.div__nav_material {
+    padding-left: calc(24% - 50px);
+}
+.input__search {
+    width: 20em;
+    padding-right: 3%;
+}
+.div__container_contacto {
+    grid-template-columns: repeat(1, 0.4fr) repeat(1, 0.4fr);
+    width: 100%;
+    height: auto;
+    padding: 5% 5% 0 5%;
+    justify-items: center;
+    align-items: start;
+}
+.container__alura {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.container__ul_contacto {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    justify-content: start;
+}
+.container__nosotros {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 100%;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input {
+    width: 423px;
+    height: 63.13px;
+}
+.btn__loggear {
+    width: 423px;
+    height: 62px;
+    font-size: var(--font-large);
+}
+nav div p {
+    font-size: var(--font-p-large);
+}
+.material-symbols-rounded {
+    font-size: var(--font-span-icon-large);
+}
+.h__nosotros {
+    font-size: var(--letter-medium);
+}
+.btn__nosotros {
+    font-size: var(--letter-medium);
+}
+.label__contacto {
+margin-top: 5px;
+}
+.input__form-nombre {
+    width: 100%;
+    height: 36px;
+}
+.h__nosotros {
+    width: 400px;
+    max-width: 600px;
+}
+section .container__alura span {
+    font-size: var(--font-span-icon-large);
+}
+section .container__alura p {
+    font-size: var(--font-p-large);
+}
+/* add-products */
+.container__div_add-products {
+    background: var(--section-loggear);
+    display: flex;
+    justify-content: center;
+}
+.h__add-products {
+    margin-top: 50px;
+}
+.container__add_product {
+    width: 600px;
+}
+.btn__add_product{
+    width: 100%;
+}
+/* product visibles */
+.container__main {
+    height: 352px;
+    padding: 0% 3% 2% 10%;
+}
+.container__produtc_consolas{
+    padding: 0 10%;
+    justify-content: space-between;
+}
+.h__promocional {
+    font-size: 5.2rem;
+}
+.p__descuento {
+    font-size: var(--letter-big);
+}
+.btn__main_consolas {
+    width: 129px;
+    height: 51px;
+}
+.container__consolas_tittle {
+    padding: 0;
+}
+.container__visible_dekstrop {
+    display: inline;
+}

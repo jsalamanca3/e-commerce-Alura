@@ -1,0 +1,36 @@
+.container__loggear {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    align-items: center;
+    background: var(--section-loggear);
+}
+.h__inicio-sesion {
+    font-weight: 700;
+    font-size: var(--letter-small);
+    margin-top: 50px;
+    text-align: center;
+    color: var(--h-color-section);
+}
+input {
+    width: 100%;
+    height: 41px;
+    padding: 0 3%;
+    justify-content: center;
+    border: none;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.btn__loggear {
+    width: 110px;
+    height: 40px;
+    color: var(--color-letter-input);
+    font-weight: 600;
+    font-size: var(--font-small);
+    background: var(--color-input);
+    margin-bottom: 70px;
+    border: none;
+}

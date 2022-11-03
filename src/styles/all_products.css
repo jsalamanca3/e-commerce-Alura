@@ -1,0 +1,40 @@
+.btn__agregar_product {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: var(--color-letter-input);
+    background: var(--color-input);
+}
+.container__consolas_tittle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.div__icons_delete {
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 70px;
+    top: 15px;
+    margin-bottom: -2em;
+    justify-content: space-around;
+}
+.container__card_games {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.material-symbols-sharp {
+    color: #FFFFFF;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.p__sell-game {
+    color: var(--p-geek);
+}
+

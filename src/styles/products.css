@@ -1,0 +1,84 @@
+.container__section_products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: var(--section-add-product);
+}
+.div__container__starwars {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div__container__starwars,
+.div__container__consolas,
+.div__container__diversos {
+    margin-bottom: 32px;
+}
+.container__produtc_consolas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 3%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.container__consolas_tittle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 52px;
+    padding: 0 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__a_arrow {
+    display: flex;
+    align-items: center;
+}
+.div__a_arrow .material-symbols-outlined {
+    color: var(--logo-color);
+}
+.h__tittle_games {
+    font-size: var(--letter-tittle-large);
+    font-weight: 700;
+    color: var(--h-color);
+}
+.a__ver_todo {
+    color: var(--p-alura);
+    text-align: center;
+    font-weight: 700;
+}
+img {
+    width: 156px;
+    height: 174px;
+}
+.h__product_name {
+    font-size: var(--letter-small);
+    font-weight: 500;
+    color: var(--h-color);
+}
+.p__price_game {
+    font-size: var(--letter-medium);
+    font-weight: 700;
+    color: var(--h-color);
+}
+.a__enlace_sell {
+    font-size: var(--letter-small);
+    font-weight: 700;
+    color: var(--logo-color);
+    margin-bottom: 16px;
+}
+.div__container__consolas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.container__visible_dekstrop {
+    display: none;
+}
+

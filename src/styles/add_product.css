@@ -1,0 +1,39 @@
+.container__add_product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 3%;
+    align-items: flex-start;
+    background: var(--section-add-product);
+}
+.h__add-products {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: var(--letter-tittle-large);
+    font-weight: 700;
+    text-align: left;
+}
+.form__add-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+.div_form_addproduct {
+    width: 100%;
+    height: 56px;
+    justify-content: center;
+    background: var(--color-letter-input);
+}
+.btn__add_product{
+    width: 100%;
+    height: 52px;
+    margin-top: 16px;
+}
+.label__add_contact {
+    width: 90%;
+}
+.input__add_contact {
+    width: 90%;
+}
